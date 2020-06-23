@@ -43,6 +43,11 @@ type SlaContract struct {
 	Frequency string `json:"frequency"`
 	Slacontractobj string `json:"slacontractobj"`
 	Version string `json:"Version"`
+	Receiver  string `json:"receiver"`
+	Sender  string `json:"sender"`
+	CreateUserName string `json:"createUserName"`
+	Approval1UserName string `json:"approval1UserName"`
+	Approval2UserName  string `json:"approval2UserName"`
 }
 
 //NFR struct
